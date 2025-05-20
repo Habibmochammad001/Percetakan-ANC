@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Produk ANC</title>
+    <link rel="icon" href="images/logoANCremovebg.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-40">
+      <div class="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <!-- Left Section: Home Button, Logo, and Tagline -->
+          <div class="flex items-center space-x-4">
+            <!-- Home Button -->
+            <a
+              href="index.html"
+              class="flex h-10 items-center gap-1.5 bg-white-100 px-4 transition hover:text-gray-900"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+              <span class="hidden sm:inline-block text-xs font-medium"
+                >Home</span
+              >
+            </a>
+            <!-- Logo and Tagline -->
+            <div class="flex flex-col sm:flex-row items-center space-x-4">
+              <h1 class="text-2xl font-bold text-gray-900">
+                Anugerah Niaga Cipta
+              </h1>
+              <p class="hidden sm:block text-sm sm:mt-2 text-gray-500">
+                Pesan Produk Percetakan sekarang! lengkap & murah! 🎉
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Section: Action Buttons -->
+          <div class="flex space-x-4">
+            <a
+              href="cara-pesan.html"
+              class="inline-flex items-center shadow-md justify-center gap-1.5 rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              <span class="text-sm font-medium">Cara Pesan</span>
+            </a>
+            <a
+              href="chat-admin.html"
+              class="inline-flex items-center shadow-md justify-center gap-1.5 rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              Chat Admin
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END NAVBAR -->
+
+    <!-- JARAK -->
+    <div class="relative flex justify-center mt-4 mb-4">
+      <div
+        class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+      ></div>
+
+      <span class="relative z-10 bg-white px-6">Percetakan Online</span>
+    </div>
+    <!-- END JARAK -->
+
+    <!-- BANNER -->
+    <div class="group relative block">
+      <div class="relative h-[350px] sm:h-[450px]">
+        <img
+          src="https://images.unsplash.com/photo-1581508512961-0e3b9524db40?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1503694978374-8a2fa686963a?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+        />
+      </div>
+
+      <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
+        <h3 class="text-xl font-medium text-white">
+          Percetakan Anugerah Niaga Cipta.
+        </h3>
+
+        <p class="mt-1.5 text-pretty text-xs text-white">
+          Menyediakan berbagai macam produk percetakan, Lengkap dan pastinya
+          murah hanya diWebsite percetakan kami. Let's go!!
+        </p>
+        <a
+          href="https://wa.me/66281517333373?text=Hallo Admin ANC!"
+          class="mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
+        >
+          Shop Now
+        </a>
+      </div>
+    </div>
+    <!-- END BANNER -->
+
+    <!-- CALL TO ACTION -->
+    <section class="bg-gray-50">
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-5xl font-extrabold text-gray-900 md:text-3xl">
+            Katalog Produk Kami
+          </h2>
+
+          <p class="hidden text-gray-500 sm:mt-4 sm:block">
+            Mulai dari Banner,Stempel,Spanduk,dll.. Kamu pasti penasarankan,
+            Yukk Pesan Sekarang Juga!!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END CALL TO ACTION -->
+
+    <!-- PRODUCT LIST-->
+    <div class="bg-white">
+      <div
+        class="mx-auto max-w-2xl px-4 py-3 sm:px-16 sm:py-5 lg:max-w-7xl lg:px-8"
+      >
+        <div
+          class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+        >
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk1.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Spanduk/Banner"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Banner
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk2.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Spanduk/Baliho"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Baliho
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative" id="X-Banner">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk3.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk X-Banner"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    X-Stand Banner
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk4.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Spanduk/Roll Banner"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Roll Banner
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk5.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Kartu Nama"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Kartu Nama
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk6.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Stiker"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Stiker
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk7.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Spanduk/Stiker Chromo & HVS"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Stiker Chromo & HVS
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk8.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Buku Yasin (Soft Cover)"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Buku Yasin
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk9.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Kop Surat"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Kop Surat
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk10.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Brosur HVS"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Brosur HVS
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk11.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Brosur Art Paper"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Brosur Art Paper
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative" id="IDcard">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk12.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk ID CARD"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    ID Card
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk13.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Tripod Banner"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Tripod Banner
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk14.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Stempel"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Stempel
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative" id="Stempel-R">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk15.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Stempel Runaflex"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Stempel Runaflex
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk16.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk A3 Sticker Vinyl"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    A3 Sticker Vinyl
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk17.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Cetak Buku Yasin (Hard Cover)"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Buku Yasin (Hard Cover)
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk18.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Buku Nota"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Buku Nota
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk19.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Nama Dada"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Nama Dada
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk20.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Lanyard"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Lanyard
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative">
+            <div
+              class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 shadow-2xl"
+            >
+              <img
+                src="images/Produk21.jpg"
+                alt="Front of men&#039;s Basic Tee in black."
+                class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+              />
+            </div>
+
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-700">
+                  <a
+                    href="https://wa.me/6281517333373?text=Hallo Admin ANC! saya mau pesan produk Print UV e-money"
+                  >
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Print UV e-money
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">
+                  Klik untuk pemesanan...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRODUCT LIST-->
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-50">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div
+            class="flex justify-center text-indigo-400 sm:justify-start font-bold"
+          >
+            Anugerah Niaga Cipta
+          </div>
+
+          <p
+            class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right"
+          >
+            Copyright &copy; 2024. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>
